@@ -11,9 +11,9 @@ It's designed for personal learning about how keyloggers work, and should only b
 
 ## How to use
 
-### Download the latest Python version (preferably as 3.10+)  
+### 1. Download the latest Python version (preferably as 3.10+), then, download the file and extract it.
 
-### 1. Install the module
+### 2. Install the module
 
 This script uses the `pynput` library. Install it with: 
 
@@ -21,10 +21,10 @@ This script uses the `pynput` library. Install it with:
 pip install pynput
 ```
 
-### 2. Run the script
+### 3. Run the script
 - Open up PowerShell and write:
 ```PowerShell
-cd "C:\Users\*your username*\downloads" 
+cd "C:\Users\-user_name-\Downloads\Key-logger-main" 
 
 # press "enter" (\downloads if that's where your downloads go)
 
