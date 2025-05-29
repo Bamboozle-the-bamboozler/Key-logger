@@ -24,9 +24,9 @@ pip install pynput
 ### 3. Run the script
 - Open up PowerShell and write:
 ```PowerShell
-cd "C:\Users\-user_name-\Downloads\Key-logger-main" 
+cd "C:\Users\(username)\Downloads\Key-logger-main\Key-logger-main" 
 
-# press "enter" (\downloads if that's where your downloads go)
+# press "enter" (I wrote \Downloads if that's where your downloads go)
 
 # after pressing "enter" write:
 
