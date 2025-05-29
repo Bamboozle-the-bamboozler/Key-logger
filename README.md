@@ -23,7 +23,7 @@ pip install pynput
 
 ### 2. Run the script
 - Open up PowerShell and write:
-```powershell
+```PowerShell
 cd "C:\Users\*your username*\downloads" 
 
 # press "enter" (\downloads if that's where your downloads go)
@@ -48,8 +48,21 @@ python keylogger.py
 - Listens for key presses with `pynput`.
 - Buffers the keystrokes and writes them to `keylog.txt` periodically.
 
+## If it doesn't work:
+- Make sure you downloaded Python with the option of enabling "PATH"; if you're unsure of whether you did or not, try to uninstall Python and reinstall it, in the setup, there's an option to add the download to the PATH.
+- Upgrade pips and modules, and check if you're using the latest Python patch
+
+## Deleting/stopping the script
+
+ I haven't found a way to stop the script manually without deleting the files, so the only option I can give out for stopping the script would be deleting the files downloaded, and uninstalling the module downloaded (`pynput`):
+
+```powershell
+pip uninstall pynput
+```
+### !If the code is still running and logging your keys, check the Task Manager to see if python.exe is running. If it is, just kill the process to stop the script from running.
+
 ## Disclaimer
 
-You are solely responsible for any use or misuse of this code.
-!!I HAVE NOTHING TO DO WITH ANY MISUSE OR ANY DOWNSIDES DONE FROM EDITING THE .PY!!! 
-!!!THIS IS FOR EDUCATIONAL USE ONLY!!!
+### You are solely responsible for any use or misuse of this code.
+### !!I HAVE NOTHING TO DO WITH ANY MISUSE OR ANY DOWNSIDES DONE FROM EDITING THE .PY!!! 
+### !!!THIS IS FOR EDUCATIONAL USE ONLY!!!
