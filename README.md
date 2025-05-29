@@ -11,7 +11,7 @@ It's designed for personal learning about how keyloggers work, and should only b
 
 ## How to use
 
-### 1. Download the latest Python version (preferably as 3.10+), then, download the file and extract it.
+### 1. Download the latest Python version (preferably as 3.10+), then download the file and extract it.
 
 ### 2. Install the module
 
